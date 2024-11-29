@@ -59,10 +59,22 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
+.container button:hover{
+    background-color: #fff;
+    color: #512da8;
+    transition: 0.25s ease-in-out;
+    border: 1px solid #333;
+}
 
 .container button.hidden{
     background-color: transparent;
     border-color: #fff;
+}
+
+.container button.hidden:hover{
+    background-color: #fff;
+    color: #512da8;
+    transition: 0.25s ease-in-out;
 }
 
 .container form{
